@@ -5,14 +5,15 @@ import "firebase/compat/firestore";
 import "firebase/compat/storage"
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.DATABASE_URL,
-  projectId: process.env.PROJECT_ID,
-  storageBucket: process.env.STORAGE_BUCKET,
-  messagingSenderId: process.env.MESSAGING_SENDER_ID,
-  appId: process.env.APP_ID,
-  measurementId: process.env.MEASUREMENT_ID,
+  apiKey: "AIzaSyDeB_-1xSHM959WW-3AEK05RblvlOEVu80",
+  authDomain: "authentication-firebase-abffa.firebaseapp.com",
+  databaseURL:
+    "https://authentication-firebase-abffa-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "authentication-firebase-abffa",
+  storageBucket: "authentication-firebase-abffa.appspot.com",
+  messagingSenderId: "923325881363",
+  appId: "1:923325881363:web:ea50eb3b7864c03154f3e6",
+  measurementId: "G-DG4QHTHK7Q",
 };
 
 
